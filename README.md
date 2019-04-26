@@ -1,10 +1,10 @@
-# simple-env
+# simple-node-env
 A tiny package that load the environment variables from file
 
 ## How to install
-```npm install simple-env -S```
+```npm install simple-node-env -S```
 
-```yarn add simple-env```
+```yarn add simple-node-env```
 
 ## How to use
 
@@ -12,11 +12,11 @@ A tiny package that load the environment variables from file
 
 2. require the simple-env as soon as you code runs
 
-    ``` require('simple-env')```
+    ``` require('simple-node-env')```
 
 
 ## Extra configuration
-``` require('simple-env')(options)```
+``` require('simple-node-env')(options)```
 
 ### Options
 
@@ -27,7 +27,7 @@ Default: `path.resolve(process.cwd(), '.env')`
 You may specify a custom path if your file containing environment variables is located elsewhere.
 
 ```js
-require('simple-env')({ envPath: '/full/path/to/your/env/file' })
+require('simple-node-env')({ envPath: '/full/path/to/your/env/file' })
 ```
 
 #### Encoding
@@ -37,7 +37,7 @@ Default: `utf8`
 You may specify the encoding of your file containing environment variables.
 
 ```js
-require('simple-env')({ encoding: 'latin1' })
+require('simple-node-env')({ encoding: 'latin1' })
 ```
 
 #### Debug
@@ -47,7 +47,7 @@ Default: `false`
 You may turn on logging to help debug why certain keys or values are not being set as you expect.
 
 ```js
-require('simple-env')({ debug: process.env.DEBUG })
+require('simple-node-env')({ debug: process.env.DEBUG })
 ```
 
 #### Overwrite
@@ -57,4 +57,4 @@ Default: `false`
 In few scenerio you may want to overwrite the envirment variable if it is already exist
 
 ```js
-require('simple-env')({ overwrite: true })
+require('simple-node-env')({ overwrite: true })
