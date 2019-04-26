@@ -1,0 +1,17 @@
+{
+  "name": "simple-node-env",
+  "version": "1.0.0",
+  "description": "Load environment variable from a file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anshuman-singh-93/simple-node-env"
+  },
+  "keywords": [],
+  "author": "Anshuman singh",
+  "license": "ISC"
+}
