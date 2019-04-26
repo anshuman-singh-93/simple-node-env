@@ -12,7 +12,7 @@ A tiny package that load the environment variables from file
 
 2. require the simple-node-env as soon as you code runs
 
-    ``` require('simple-node-env')```
+    ``` require('simple-node-env')()```
 
 
 ## Extra configuration
