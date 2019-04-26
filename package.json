@@ -1,6 +1,6 @@
 {
   "name": "simple-node-env",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Load environment variable from a file",
   "main": "index.js",
   "scripts": {

@@ -10,7 +10,7 @@ A tiny package that load the environment variables from file
 
 1. create a .env file in the current directory of the project.by default it read from the current directory. if you create in some other directory then pass the envpath in option
 
-2. require the simple-env as soon as you code runs
+2. require the simple-node-env as soon as you code runs
 
     ``` require('simple-node-env')```
 
